@@ -1,4 +1,137 @@
 .App {
+}
+.Navbar {
+  margin-left: 0px;
+  background-color: azure;
+  display: flex;
+  padding: 20px 20px;
+  box-shadow: 0px 2.9852px 7.456px rgba(0, 0, 0.1);
+}
+
+.Navbar > img {
+  height: 70px;
+}
+.Hero {
+  margin-left: 40px;
+  height: 1200px;
+}
+.imagef {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 50%;
+}
+
+.Hero > img {
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.p1 {
+  margin-top: 200px;
+  height: 350px;
+  width: 200px;
+  border-radius: 30px;
+}
+.grp1 {
+  display: grid;
+  padding-left: 40px;
+}
+.grp1 > img {
+  margin-top: 30px;
+  height: 100%;
+  width: 200px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+}
+.grp2 {
+  display: grid;
+  padding-left: 40px;
+}
+.grp2 > img {
+  height: 350px;
+  width: 200px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+}
+
+.grp3 {
+  display: grid;
+  padding-left: 40px;
+}
+.grp3 > img {
+  margin-top: 30px;
+  height: 100%;
+  width: 200px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+}
+
+.grp4 {
+  display: grid;
+  padding-left: 40px;
+}
+.grp4 > img {
+  height: 350px;
+  width: 200px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+}
+.Hero > header,
+.Hero > header {
+  margin-left: 40px;
+  color: black;
+  font-size: 100px;
+  font-style: italic;
+}
+.Hero > p {
+  margin-left: 40px;
+  font-size: 40px;
+}
+.Car {
+  display: flex;
+  flex-direction: row;
+}
+.Cards {
+  padding: 20px 70px;
+  font-size: 12px;
+  position: relative;
+}
+.c1 > h1,
+.c1 > h2 {
+  color: grey;
+}
+.c1 > h3 {
+  font-size: 2rem;
+}
+.c1 > img {
+  border-radius: 20px;
+  height: 400px;
+  max-width: 240px;
+}
+.c1 {
+  display: grid;
+  margin-left: 10px;
+  max-width: 250px;
+}
+.badge {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* .p1 {
+  width: 200px;
+  height: 300px;
+  margin-top: 200px;
+} */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +168,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
